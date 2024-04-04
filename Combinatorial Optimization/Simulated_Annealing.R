@@ -185,6 +185,9 @@ route_optimal %>% ggplot(mapping = aes(x = x, y =y)) +
     geom_path()
 
 
+### Animation : Route changes by Iteration----------
+library(gganimate)
+
 route_optimal <- tibble(
   x = numeric(),
   y = numeric(),
@@ -198,8 +201,6 @@ for(i in c(1, 500 * (1:400))) {
   route_optimal <- route_optimal %>% bind_rows(rounte_optimal_temp)
 }
 
-### Animation : Route changes by Iteration----------
-library(gganimate)
 route_transition <- route_optimal %>% ggplot(mapping = aes(x = x, y = y)) +
                     geom_point() +
                     geom_path() +
@@ -296,6 +297,10 @@ session_info(include_base = TRUE)
 # withr         3.0.0    2024-01-16 [1] CRAN (R 4.3.2)
 
 # [1] C:/Users/GIHUN/AppData/Local/R/win-library/4.3
+# [2] C:/Program Files/R/R-4.3.2/library
+
+# P ── Loaded and on-disk path mismatch.
+
 # [2] C:/Program Files/R/R-4.3.2/library
 
 # P ── Loaded and on-disk path mismatch.
