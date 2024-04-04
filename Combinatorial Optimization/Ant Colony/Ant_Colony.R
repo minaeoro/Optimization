@@ -236,3 +236,94 @@ animate(route_transition)
 ### Session Info  ----------
 library(sessioninfo)
 session_info(include_base = TRUE)
+
+# ─ Session info ────────────────────────────────────────────────────────────────────────────────
+# setting  value
+# version  R version 4.3.2 (2023-10-31 ucrt)
+# os       Windows 11 x64 (build 22621)
+# system   x86_64, mingw32
+# ui       RStudio
+# language (EN)
+# collate  Korean_Korea.utf8
+# ctype    Korean_Korea.utf8
+# tz       Asia/Seoul
+# date     2024-04-05
+# rstudio  2023.12.1+402 Ocean Storm (desktop)
+# pandoc   NA
+
+# ─ Packages ────────────────────────────────────────────────────────────────────────────────────
+# ! package     * version  date (UTC) lib source
+# base        * 4.3.2    2023-10-31 [?] local
+# class         7.3-22   2023-05-03 [2] CRAN (R 4.3.2)
+# classInt      0.4-10   2023-09-05 [1] CRAN (R 4.3.3)
+# cli           3.6.2    2023-12-11 [1] CRAN (R 4.3.2)
+# colorspace    2.1-0    2023-01-23 [1] CRAN (R 4.3.2)
+# P compiler      4.3.2    2023-10-31 [2] local
+# crayon        1.5.2    2022-09-29 [1] CRAN (R 4.3.2)
+# P datasets    * 4.3.2    2023-10-31 [2] local
+# DBI           1.2.2    2024-02-16 [1] CRAN (R 4.3.2)
+# dplyr       * 1.1.4    2023-11-17 [1] CRAN (R 4.3.2)
+# e1071         1.7-14   2023-12-06 [1] CRAN (R 4.3.3)
+# fansi         1.0.6    2023-12-08 [1] CRAN (R 4.3.2)
+# farver        2.1.1    2022-07-06 [1] CRAN (R 4.3.2)
+# forcats     * 1.0.0    2023-01-29 [1] CRAN (R 4.3.2)
+# generics      0.1.3    2022-07-05 [1] CRAN (R 4.3.2)
+# gganimate   * 1.0.9    2024-02-27 [1] CRAN (R 4.3.3)
+# ggplot2     * 3.5.0    2024-02-23 [1] CRAN (R 4.3.2)
+# gifski        1.12.0-2 2023-08-12 [1] CRAN (R 4.3.3)
+# glue          1.7.0    2024-01-09 [1] CRAN (R 4.3.2)
+# P graphics    * 4.3.2    2023-10-31 [2] local
+# P grDevices   * 4.3.2    2023-10-31 [2] local
+# P grid          4.3.2    2023-10-31 [2] local
+# gtable        0.3.4    2023-08-21 [1] CRAN (R 4.3.2)
+# hms           1.1.3    2023-03-21 [1] CRAN (R 4.3.2)
+# KernSmooth    2.23-22  2023-07-10 [2] CRAN (R 4.3.2)
+# labeling      0.4.3    2023-08-29 [1] CRAN (R 4.3.1)
+# lifecycle     1.0.4    2023-11-07 [1] CRAN (R 4.3.2)
+# lpSolve       5.6.20   2023-12-10 [1] CRAN (R 4.3.2)
+# lubridate   * 1.9.3    2023-09-27 [1] CRAN (R 4.3.2)
+# magrittr      2.0.3    2022-03-30 [1] CRAN (R 4.3.2)
+# P methods     * 4.3.2    2023-10-31 [2] local
+# munsell       0.5.0    2018-06-12 [1] CRAN (R 4.3.2)
+# pillar        1.9.0    2023-03-22 [1] CRAN (R 4.3.2)
+# pkgconfig     2.0.3    2019-09-22 [1] CRAN (R 4.3.2)
+# prettyunits   1.2.0    2023-09-24 [1] CRAN (R 4.3.2)
+# progress      1.2.3    2023-12-06 [1] CRAN (R 4.3.2)
+# proxy         0.4-27   2022-06-09 [1] CRAN (R 4.3.3)
+# purrr       * 1.0.2    2023-08-10 [1] CRAN (R 4.3.2)
+# R6            2.5.1    2021-08-19 [1] CRAN (R 4.3.2)
+# Rcpp        * 1.0.12   2024-01-09 [1] CRAN (R 4.3.2)
+# readr       * 2.1.5    2024-01-10 [1] CRAN (R 4.3.2)
+# rlang         1.1.3    2024-01-10 [1] CRAN (R 4.3.2)
+# rstudioapi    0.15.0   2023-07-07 [1] CRAN (R 4.3.2)
+# scales        1.3.0    2023-11-28 [1] CRAN (R 4.3.3)
+# sessioninfo * 1.2.2    2021-12-06 [1] CRAN (R 4.3.3)
+# sf            1.0-16   2024-03-24 [1] CRAN (R 4.3.3)
+# P stats       * 4.3.2    2023-10-31 [2] local
+# stringi       1.8.3    2023-12-11 [1] CRAN (R 4.3.2)
+# stringr     * 1.5.1    2023-11-14 [1] CRAN (R 4.3.2)
+# tibble      * 3.2.1    2023-03-20 [1] CRAN (R 4.3.2)
+# tidyr       * 1.3.1    2024-01-24 [1] CRAN (R 4.3.2)
+# tidyselect    1.2.0    2022-10-10 [1] CRAN (R 4.3.2)
+# tidyverse   * 2.0.0    2023-02-22 [1] CRAN (R 4.3.2)
+# timechange    0.3.0    2024-01-18 [1] CRAN (R 4.3.2)
+# P tools         4.3.2    2023-10-31 [2] local
+# transformr    0.1.5    2024-02-26 [1] CRAN (R 4.3.3)
+# tweenr        2.0.3    2024-02-26 [1] CRAN (R 4.3.3)
+# tzdb          0.4.0    2023-05-12 [1] CRAN (R 4.3.2)
+# units         0.8-5    2023-11-28 [1] CRAN (R 4.3.3)
+# utf8          1.2.4    2023-10-22 [1] CRAN (R 4.3.2)
+# P utils       * 4.3.2    2023-10-31 [2] local
+# vctrs         0.6.5    2023-12-01 [1] CRAN (R 4.3.2)
+# withr         3.0.0    2024-01-16 [1] CRAN (R 4.3.2)
+
+# [1] C:/Users/GIHUN/AppData/Local/R/win-library/4.3
+# [2] C:/Program Files/R/R-4.3.2/library
+
+# P ── Loaded and on-disk path mismatch.
+
+# ───────────────────────────────────────────────────────────────────────────────────────────────
+# [1] C:/Users/GIHUN/AppData/Local/R/win-library/4.3
+# [2] C:/Program Files/R/R-4.3.2/library
+
+# P ── Loaded and on-disk path mismatch.
